@@ -9,7 +9,7 @@ The goal of this lab is to get you comfortable using git and github.
 
 ### So let's actually start a project.
 
-First things first, we need to create a directory for our project on our computer that will hold our code. Let's make a directory for our project and `cd` into it:
+First things first, we need to create a directory for our project and `cd` into it:
 
 `mkdir my_website`
 `cd my_website`
@@ -44,7 +44,7 @@ So far, we've been working on what's considered the `master` branch. Master shou
 
 Now let's create our new feature branch. Let's call this branch "header", because we'll be working on a header feature for the site. Now if we check the branch, it should tell us we're on the header branch.
 
-Now let's add some things to my index.html. If we open it in the browser, `open index.html`, we can see 'My Site'. Make the site your own! Replace that text in the title and <h1> tags with your name. We would probably like to add a sub-header and a description, but we don't have enough time right now. We want to save our place though, so go ahead and add, commit, and push these changes to a remote version of my branch.
+Now let's add some things to my index.html. If we open it in the browser, `open index.html`, we can see 'My Site'. Make the site your own! Replace that text in the title and `<h1>` tags with your name. We would probably like to add a sub-header and a description, but we don't have enough time right now. We want to save our place though, so go ahead and add, commit, and push these changes to a remote version of my branch.
 
 `git add <file-name>`
 `git commit -m "started working on header"`
