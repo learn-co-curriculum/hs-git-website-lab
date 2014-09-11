@@ -19,7 +19,7 @@ The goal of this lab is to get you comfortable using git with github.
 
 * Now that we have a local copy, we can cd into the project `cd hs-git-website-lab` and begin working on the lab!
 
-* First let's make an `index.html` page for our site.
+* Let's make an `index.html` page for our site in this directory.
 
 `touch index.html`
 `subl index.html`
