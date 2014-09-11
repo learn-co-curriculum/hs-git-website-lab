@@ -5,9 +5,9 @@
   type: lab
 ---
 
-The goal of this lab is to get you comfortable using git and github.
+## Using Git with Github
 
-### So let's actually start a project.
+The goal of this lab is to get you comfortable using git and github.
 
 * First things first, we need to create a directory for our project and `cd` into it:
 
