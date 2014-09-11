@@ -26,7 +26,7 @@ The goal of this lab is to get you comfortable using git with github.
 
 * Then `git add` this file to make sure git is tracking your changes. Remember how to do that?
 
-* Now let's add some basic html. You can copy and paste this code:
+* Now let's add some basic html. You can copy and paste this code into your index.html file:
 
 ```
 <html>
