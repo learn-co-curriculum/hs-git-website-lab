@@ -9,34 +9,24 @@
 
 The goal of this lab is to get you comfortable using git and github.
 
-* First things first, we need to create a directory for our project and `cd` into it:
+* First things first, fork this lab by clicking the `Fork` button in the top right corner. When you do that, notice the location of the new forked repository is <your github username>/hs-git-website-lab. A copy of this lab now exists on your github account.  
 
-`mkdir my_website`
-`cd my_website`
+* Now we have to clone the project to get it on your computer. You should see something that says SSH clone URL and a linkt that starts with git@github... (if you don't see this you should click on the blue SSH link). You'll need that link for the following command in your terminal:
 
-* Now that we're in the project, we need to initialize a new git repository. Remember how to do that?
+`git clone git@github.com:<your username>/hs-git-website-lab.git`
 
-* Don't forget to also create a `README.md` file. Why is a README important?
+* This will create a copy of the lab locally on your computer.
 
-`touch README.md`
-`subl README.md` 
+* Now that we have it up locally, we can cd into the project `cd hs-git-website-lab` and begin working on the lab!
 
-* Add some descriptive language to your README. Maybe something like this: "This is my personal website with a cat photo."
-
-* Now let's see if git noticed that we made changes to our `README.md`. Remember how to do that? 
-
-* Now that we've finished editing our README, let's stage and commit. Don't forget your commit message!
-
-* Now let's push up our files to Github.com, so everyone can see what we've been working on, and if anything ever happens to our computers, our code is still accessible. 
-
-* You should already have a remote set up, but let's check by using `git remote -v`. Do you see your fork? Go ahead and push up to your fork. 
-
-* Now let's make the `index.html` page of our site.
+* First let's make a `index.html` page for our site.
 
 `touch index.html`
 `subl index.html`
 
-* Now that let's add some basic html. You can copy and paste this code
+* Add this file to make sure git is tracking your changes. Remember how to do that?
+
+* Now add some basic html. You can copy and paste this code
 
 ```
 <html>
@@ -50,23 +40,25 @@ The goal of this lab is to get you comfortable using git and github.
 </html>
 ```
 
-* Then go ahead and add, commit and push.
+* Now let's see if git noticed that we made changes to our index.html. Remember how to do that?
 
-* Let's do some work on the header, but we never want to do work on the master branch, right? Go ahead and create a new header branch and move to that branch.
+* We're finished with that part for now, so stage and commit. Don't forget your commit message!
+
+* Now let's push up our files to Github.com, so everyone can see what we've been working on, and if anything ever happens to our computers, our code is still accessible.
+
+* First use `git remote -v` in the command line to make sure that the link to your github repo is set up properly. You should see `git@github.com:<your username>/hs-git-website-lab.git`.
+
+* Do you see that? Great! Go ahead and push up to your fork.
+
+* Now let's do some work on the header. We never want to do work on the master branch though, right? Go ahead and create a new `header` branch and move to that branch.
 
 * Before we get started working let's take a look at index.html in our browser. You can open it up by typing `open index.html` from the command line. 
 
-* You should see 'My Site', but let's make the site your own! Replace that text in the `<title>` and `<h1>`, tags with your name. We should probably add a sub-header and a description, but we don't have enough time right now. We do want to save our work though, so go ahead and add and commit these changes. 
+* You should see 'My Site' for now, but let's make the site your own! Replace that text in the `<title>` and `<h1>`, tags with your name. 
 
-* We also want to push these changes to github but there is not a remote version of the branch on github. To push up our code we need to use this command:
+* We eventually want to add a sub-header and a description, but we don't have enough time right now. We do want to save our work though, so go ahead and add and commit these changes. 
 
-`git push origin header`
-
-The header branch didn't previously exist on github; so that last command explicitly tells git to push to the remote location (origin) our new branch (header). 
-
-* Let's go back to master branch now and open `index.html`. You'll notice your name no longer appears in the browser. Those changes only exist on my `header` branch.
-
-* We're done making changes for now though so go ahead and merge the header branch into the master branch.
+* Now let's go back to master branch and open `index.html`. You'll notice your name no longer appears in the browser. Those changes only exist on the `header` branch. To see those changes on the master branch we need to merge the header branch into the master branch. Do that now.
 
 Now if we reload index.html in the browser, you should see your name in the header.
 
@@ -75,9 +67,9 @@ Great job!
 
 ### Wrapping up
 
-Now that you completed the lab, make sure all your code is pushed up to your version of the repository on github. After that, we're going to create a pull request. A pull request is the best practice for submitting contribution of work to an open source project. This is also how we'll be able to review your work and give you feedback on your code. 
+Now that you completed the lab, make sure all your code is pushed up to your fork of the repository on github. After that, we're going to create a pull request. A pull request is best practice for submitting contributions to an open source project. This is also how we'll be able to review your work and give you feedback on your code. 
 
-* To create a pull request, go to your version of the repository on your github account. 
+* To create a pull request, go to your fork on the github website. 
 
 * Click the green button in the top left corner. 
 
