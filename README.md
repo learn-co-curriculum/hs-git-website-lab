@@ -7,26 +7,26 @@
 
 ## Using Git with Github
 
-The goal of this lab is to get you comfortable using git and github.
+The goal of this lab is to get you comfortable using git with github.
 
 * First things first, fork this lab by clicking the `Fork` button in the top right corner. When you do that, notice the location of the new forked repository is <your github username>/hs-git-website-lab. A copy of this lab now exists on your github account.  
 
-* Now we have to clone the project to get it on your computer. You should see something that says SSH clone URL and a linkt that starts with git@github... (if you don't see this you should click on the blue SSH link). You'll need that link for the following command in your terminal:
+* Now we have to clone the project to get it on your computer. In the right navigation bar you should see something that says SSH clone URL and a link that starts with git@github... (if you don't see this you should click on the blue SSH link). You'll need that git@github link for the following command in your terminal:
 
 `git clone git@github.com:<your username>/hs-git-website-lab.git`
 
 * This will create a copy of the lab locally on your computer.
 
-* Now that we have it up locally, we can cd into the project `cd hs-git-website-lab` and begin working on the lab!
+* Now that we have a local copy, we can cd into the project `cd hs-git-website-lab` and begin working on the lab!
 
-* First let's make a `index.html` page for our site.
+* First let's make an `index.html` page for our site.
 
 `touch index.html`
 `subl index.html`
 
-* Add this file to make sure git is tracking your changes. Remember how to do that?
+* Then `git add` this file to make sure git is tracking your changes. Remember how to do that?
 
-* Now add some basic html. You can copy and paste this code
+* Now let's add some basic html. You can copy and paste this code:
 
 ```
 <html>
@@ -40,7 +40,7 @@ The goal of this lab is to get you comfortable using git and github.
 </html>
 ```
 
-* Now let's see if git noticed that we made changes to our index.html. Remember how to do that?
+* Let's see if git noticed that we made changes to our index.html. Remember how to check that?
 
 * We're finished with that part for now, so stage and commit. Don't forget your commit message!
 
@@ -54,7 +54,9 @@ The goal of this lab is to get you comfortable using git and github.
 
 * Before we get started working let's take a look at index.html in our browser. You can open it up by typing `open index.html` from the command line. 
 
-* You should see 'My Site' for now, but let's make the site your own! Replace that text in the `<title>` and `<h1>`, tags with your name. 
+* You should see 'My Site' for now, but let's make the site your own! Replace 'My Site' in the `<title>` and `<h1>`, tags with your name. 
+
+* Refresh the page in your browser. Do you see your name?
 
 * We eventually want to add a sub-header and a description, but we don't have enough time right now. We do want to save our work though, so go ahead and add and commit these changes. 
 
