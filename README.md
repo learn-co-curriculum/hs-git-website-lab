@@ -9,9 +9,9 @@
 
 * First things first, click on the fork icon at the top of the page, then fork this lab by clicking the "Fork" button in the top right corner. 
 
-* Notice the location of the new forked repository is your-github-username/hs-git-website-lab. A copy of this lab now exists on your github account. 
+* A copy of this lab now exists on your github account, but we need to clone the project to get it on your computer. 
 
-* Now we have to clone the project to get it on your computer. In the right navigation bar you should see something that says SSH clone URL and a link that starts with git@github... (if you don't see this you should click on the blue SSH link). You'll need that git@github link for the following command in your terminal:
+* In the right navigation bar you should see something that says SSH clone URL and a link that starts with git@github... (if you don't see this you should click on the blue SSH link). You'll need that git@github link for the following command in your terminal:
 
 `git clone git@github.com:<your username>/hs-git-website-lab.git`
 
@@ -19,12 +19,7 @@
 
 * Now that we have a local copy, we can cd into the project `cd hs-git-website-lab` and begin working on the lab!
 
-* Let's make an `index.html` page for our site in this directory.
-
-`touch index.html`
-`subl index.html`
-
-* Then `git add` this file to make sure git is tracking your changes. Remember how to do that?
+* Let's make an `index.html` page for our site in this directory and open it up in Sublime Text.
 
 * Now let's add some basic html. You can copy and paste this code into your index.html file:
 
@@ -40,9 +35,9 @@
 </html>
 ```
 
-* Let's see if git noticed that we made changes to our index.html. Remember how to check that?
+* Let's see if git noticed that we added a file and made changes to it. Remember how to do that?
 
-* We're finished with that part for now, so stage and commit. Don't forget your commit message!
+* We're finished with that part for now, so add and commit. Don't forget your commit message!
 
 * Now let's push up our files to Github.com, so everyone can see what we've been working on, and if anything ever happens to our computers, our code is still accessible.
 
@@ -50,15 +45,15 @@
 
 * Do you see that? Great! Go ahead and push up to your fork.
 
-* Now let's do some work on the header. We never want to do work on the master branch though, right? Go ahead and create a new `header` branch and move to that branch.
+* Now let's do some work on the header. We don't want to do work on the master branch though, right? Go ahead and create a new `header` branch and move to that branch.
 
-* Before we get started working let's take a look at index.html in our browser. You can open it up by typing `open index.html` from the command line. 
+* Before we get started working let's take a look at index.html in our browser. You can open it up in your browser by typing `open index.html` from the command line. 
 
 * You should see 'My Site' for now, but let's make the site your own! Replace 'My Site' in the `<title>` and `<h1>`, tags with your name. 
 
 * Refresh the page in your browser. Do you see your name?
 
-* We eventually want to add a sub-header and a description, but we don't have enough time right now. We do want to save our work though, so go ahead and add and commit these changes. 
+* We eventually want to add a sub-header and a description, but we don't have enough time right now. We want to save our work though, so go ahead and add and commit these changes. 
 
 * Now let's go back to master branch and open `index.html`. You'll notice your name no longer appears in the browser. Those changes only exist on the `header` branch. To see those changes on the master branch we need to merge the header branch into the master branch. Do that now.
 
@@ -69,7 +64,7 @@ Great job!
 
 ### Wrapping up
 
-Now that you completed the lab, make sure all your code is pushed up to your fork of the repository on github. After that, we're going to create a pull request. A pull request is best practice for submitting contributions to an open source project. This is also how we'll be able to review your work and give you feedback on your code. 
+Now that you completed the lab, make sure all your code is pushed up to your fork of the repository on Github. After that, we're going to create a pull request. A pull request is best practice for submitting contributions to an open source project. This is also how we'll be able to review your work and give you feedback on your code. 
 
 * To create a pull request, go to your fork on the github website. 
 
