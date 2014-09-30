@@ -5,10 +5,6 @@
   type: lab
 ---
 
-## Using Git with Github
-
-The goal of this lab is to get you comfortable using git with github.
-
 * First things first, fork this lab by clicking the "Fork" button in the top right corner. When you do that, notice the location of the new forked repository is your-github-username/hs-git-website-lab. A copy of this lab now exists on your github account.  
 
 * Now we have to clone the project to get it on your computer. In the right navigation bar you should see something that says SSH clone URL and a link that starts with git@github... (if you don't see this you should click on the blue SSH link). You'll need that git@github link for the following command in your terminal:
