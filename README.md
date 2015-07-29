@@ -1,9 +1,4 @@
----
-  tags: git, kids 
-  languages: git
-  level: 1
-  type: lab
----
+
 
 ##Personal Website Lab
 
