@@ -66,3 +66,5 @@ Now that you completed the lab, make sure all your code is pushed up to your for
 * Click the green button in the top left corner. 
 
 * On the next page, enter a comment for the pull request, like "completed lab" and click submit.
+
+<a href='https://learn.co/lessons/hs-git-website-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
