@@ -67,4 +67,4 @@ Now that you completed the lab, make sure all your code is pushed up to your for
 
 * On the next page, enter a comment for the pull request, like "completed lab" and click submit.
 
-<a href='https://learn.co/lessons/hs-git-website-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-git-website-lab' title='Personal Website Lab'>Personal Website Lab</a> on Learn.co and start learning to code for free.</p>
